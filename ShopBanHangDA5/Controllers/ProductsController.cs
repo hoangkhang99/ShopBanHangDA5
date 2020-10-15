@@ -19,7 +19,7 @@ namespace ShopBanHangDA5.Controllers
         {
             _context = context;
         }
-
+        // hieudegea ngu
         // GET: api/Products
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProduct()
